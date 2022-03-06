@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: "ooo.jpg";
+    background-size: 100%;
+    font-family: sans-serif;
+    color: white;
+    
+}
+header{
+    height: 10vh;
+}
+header nav{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+text-decoration: none;
+font-size: 1.4rem;
+color: white;
+}
+main{
+    padding: 0 10vw;
+}
+article h2{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+article p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 0 6px;
+    font-size: 1.2rem;
+}
